@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+    .navbar1{
+        display: none;
+    }
+    .navbar2{
+        align-items: center;
+        margin-left: 16px;
+    }
+    .menu_toogle{
+        margin-left: 530px;
+    }
+    .navbar3{
+        border-bottom: 1px solid black;
+        justify-content: space-between;
+    }
+}   
