@@ -33,6 +33,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'color': '#FFDC26'
               }
             }
           }
@@ -84,9 +85,9 @@
         <section class="container mx-auto mb-11 lg:mb-[500px] lg:ml-24">
             <div class="flex flex-col">
                 <!-- text content -->
-                <div class="lg:relative lg:z-10"> 
-                    <h3 class="text-6xl font-normal font-adlam-display mb-5">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h3>
-                    <p class="text-xl font-normal font-sora mb-6">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
+                <div class="lg:relative lg:z-10 "> 
+                    <h3 class="text-6xl font-normal font-adlam-display mb-5 animate-bounce">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h3>
+                    <p class="text-xl font-normal font-sora mb-6 ">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
                     <button class="btn btn-warning py-2 px-7">Find a pet</button>
                 </div> 
                 <!-- image content -->
@@ -98,7 +99,7 @@
 
         <!-- categories -->
         <section class="container mx-auto mb-32 lg:ml-24">
-            <h3 class="font-normal text-4xl font-adlam-display mb-11">Browse By Categories</h3>
+            <h3 class="font-normal text-4xl font-adlam-display mb-11 animate-bounce">Browse By Categories</h3>
 
             <div class="grid grid-cols-2 lg:grid-cols-6 gap-6 lg:justify-around justify-items-center lg:w-5/6">
                 <!-- card 1 -->
@@ -354,7 +355,7 @@
         </section>
 
         <!-- price section -->
-        <section class="container mx-auto mb-32 lg:ml-24">
+        <section class="container mx-auto lg:mb-32 lg:ml-24">
           <h3 class="text-4xl font-normal font-adlam-display mb-10">Everyday low Price</h3>
           <div class="grid lg:grid-cols-2 gap-6 space-x-6">
             <div class="lg:w-[784px] h-[380px]">
@@ -392,6 +393,26 @@
             </div>
           </div>
 
+        </section> 
+
+        <!-- news section -->
+        <section class="container mx-auto lg:ml-24 bg-[#FFF9F4] relative top-56">
+          <div>
+            <div class="flex">
+              <!-- image -->
+              <div>
+                <img src="assets/cute-pet-mid.png" alt="" class="py-6 pl-20">
+              </div>
+              <!-- text -->
+              <div class="mt-20 ml-32">
+                <h3 class="font-normal text-4xl font-adlam-display mb-5">Get Pawsome News!</h3>
+                <p class="font-normal text-xl font-sora mb-9">Exclusive training tips, ticks, product deals and more.</p>
+                <input type="email" name="" id="" placeholder="Enter email...." class="mb-6 w-[472px] h-[67px] p-4 rounded-lg">
+                <br>
+                <button class="btn bg-color">Subscribe</button>
+              </div> 
+            </div>
+          </div>
         </section> 
     </main>
 
@@ -444,8 +465,6 @@
           
   
         </div>
-        
-    
       </div>
     </footer>
 </body>
